@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Leon Accent Chair</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            poppins: ['"Poppins"', 'sans-serif'],
+          },
+        },
+      },
+    };
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body class="font-poppins text-gray-900 bg-[#f5f5f5]">
+
+  <header class="bg-white sticky top-0 z-30 border-b">
+    <div class="max-w-7xl mx-auto flex items-center justify-between px-4 py-3">
+      <div class="flex items-center space-x-8">
+        <a href="#" class="flex items-center space-x-2">
+          <span class="font-bold bg-black text-white px-2 py-1">LS</span>
+          <span class="text-sm">LivingStyles</span>
+        </a>
+        <nav class="hidden md:flex space-x-8 text-sm font-medium">
+          <a href="#">About Us</a>
+          <a href="#">Our Collections</a>
+          <a href="#">Design Inspiration</a>
+          <a href="#">Our Projects</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-7xl mx-auto bg-white px-4 py-10 lg:flex lg:space-x-10">
+    <div class="lg:w-2/5">
+      <img src="./images/sofa1.png" alt="Chair" class="rounded-lg w-full mb-4" />
+      <div class="flex flex-col space-y-3 lg:space-y-0 lg:flex-row lg:space-x-3">
+        <img src="./images/sofa1.png" class="w-20 h-20 object-cover border border-gray-300" />
+        <img src="./images/sofa2.png" class="w-20 h-20 object-cover border border-gray-300" />
+        <img src="./images/sofa3.png" class="w-20 h-20 object-cover border border-gray-300" />
+        <img src="./images/sofa4.png" class="w-20 h-20 object-cover border border-gray-300" />
+        <img src="./images/sofa5.png" class="w-20 h-20 object-cover border border-gray-300" />
+      </div>
+    </div>
+
+    <div class="lg:w-3/5 mt-10 lg:mt-0 space-y-6">
+      <h1 class="text-3xl font-semibold">Home Centre Corner Sofa Seater Mills Half Leather Sofa| Half Leather Sofa| (Black) |Two Year Warranty</h1>
+      <p class="text-sm text-gray-500">by Home Centre</p>
+      <p class="text-2xl font-bold">$1,339</p>
+
+      <div class="flex space-x-2">
+        <span class="w-6 h-6 rounded-full border" style="background:#F5F5F5"></span>
+        <span class="w-6 h-6 rounded-full border" style="background:#333"></span>
+        <span class="w-6 h-6 rounded-full border" style="background:#C2BDB6"></span>
+      </div>
+
+      <div class="flex items-center space-x-4">
+        <label for="qty" class="text-sm font-medium">Quantity</label>
+        <input id="qty" type="number" value="1" min="1" class="w-16 px-2 py-1 border rounded text-center" />
+      </div>
+
+      <div class="flex space-x-4">
+        <button class="bg-black text-white px-6 py-3 rounded w-full lg:w-auto hover:bg-stone-700">ADD TO CART</button>
+        <button class="border px-6 py-3 rounded w-full lg:w-auto hover:bg-stone-200">BUY NOW</button>
+      </div>
+
+      <p class="text-sm leading-relaxed">
+        Fashion designer and creative director Carly Cushnie brings her celebrated sense of style
+        to interiors with her first-ever line of furniture exclusively for Lulu and Georgia. The
+        Leon chair folds cozy comfort into an elevated design with its dramatic shape and channel
+        tufting, dressed all over in a textural bouclé. The open profile makes this accent chair a
+        striking addition to an eclectic yet curated edit where each element has space to breathe.
+      </p>
+
+      <details class="border-t pt-4" open>
+        <summary class="font-semibold cursor-pointer select-none">Details</summary>
+        <p class="text-sm mt-2">Solid pine frame, high-resilience foam, performance bouclé.</p>
+      </details>
+      <details class="border-t pt-4">
+        <summary class="font-semibold cursor-pointer select-none">Dimensions</summary>
+        <p class="text-sm mt-2">W 28″ × D 30″ × H 34″</p>
+      </details>
+      <details class="border-t pt-4">
+        <summary class="font-semibold cursor-pointer select-none">Care</summary>
+        <p class="text-sm mt-2">Spot-clean with a damp cloth. No harsh solvents.</p>
+      </details>
+      <details class="border-t pt-4">
+        <summary class="font-semibold cursor-pointer select-none">Sustainability</summary>
+        <p class="text-sm mt-2">Responsibly sourced pine, CertiPUR-US® foam.</p>
+      </details>
+    </div>
+  </main>
+
+  <section class="max-w-7xl mx-auto px-4 py-10">
+  <h2 class="text-2xl font-semibold mb-6">Most Recommended Products For You!</h2>
+
+  <div class="flex overflow-x-auto space-x-6 pb-4">
+    <a href="#product-1" class="min-w-[220px] bg-white border rounded shadow-sm p-3 space-y-1">
+      <img src="./images/sofa6.png" alt="Grey Velvet Sofa" class="h-40 w-full object-cover rounded">
+      <p class="text-sm font-medium">BURRAQUE Overstuffed 7 Seater Multifunction Sofa Set, Solid Wood Sofa For Living Room Furniture Modern Corner Linen Fabric Upholstered Sofa Set Color Grey</p>
+      <p class="text-red-600 text-xs font-semibold">48% off • Limited deal</p>
+      <p class="font-bold">₹30,999</p>
+      <p class="text-xs line-through text-gray-500">₹59,999</p>
+    </a>
+
+    <a href="#product-2" class="min-w-[220px] bg-white border rounded shadow-sm p-3 space-y-1">
+      <img src="./images/sofa7.png" alt="Two‑Tone Sofa" class="h-40 w-full object-cover rounded">
+      <p class="text-sm font-medium">WESTERN WOOD ART Stylish & Modern Heavy Duty & Luxurious Traditional 3 Seater Sofa Chesterfield Sofa Arm Sofa Three Seater Sofa for Living Room Guest Room Hotels & Office. (Brown & BEIGEEE)</p>
+      <p class="text-gray-500 text-xs">FREE Delivery</p>
+      <p class="font-bold">₹32,999</p>
+    </a>
+
+    <a href="#product-3" class="min-w-[220px] bg-white border rounded shadow-sm p-3 space-y-1">
+      <img src="./images/sofa8.png" alt="Blue L‑Shape Sectional" class="h-40 w-full object-cover rounded">
+      <p class="text-sm font-medium">WESTIDO Pine Wood::Mango Wood::Plywood Sofa for Home & Living Room | Maroon | 70.104X155.44X79 cm | greyblue311 | 1 Year Warranty</p>
+      <p class="text-red-600 text-xs font-semibold">44% off • Limited deal</p>
+      <p class="font-bold">₹14,999</p>
+      <p class="text-xs line-through text-gray-500">₹27,000</p>
+    </a>
+
+    <a href="#product-4" class="min-w-[220px] bg-white border rounded shadow-sm p-3 space-y-1">
+      <img src="./images/sofa9.png" alt="Beige Sectional" class="h-40 w-full object-cover rounded">
+      <p class="text-sm font-medium">Gaimrao Rosewood ! Modern Classic L Shape Sectional Chesterfield Style 4 Seater Sofa Set with Pillows for Living Room, Bedroom and Office, Office, and Hallway Colour (L-Shape Right Chaise, Beige)</p>
+      <p class="text-gray-500 text-xs">FREE Delivery</p>
+      <p class="font-bold">₹24,990</p>
+    </a>
+
+    <a href="#product-5" class="min-w-[220px] bg-white border rounded shadow-sm p-3 space-y-1">
+      <img src="./images/sofa13.png" alt="Beige Sectional" class="h-40 w-full object-cover rounded">
+      <p class="text-sm font-medium">Woodsfreak Genuine Leather Sofa Set | 5 to 6 Seater Grey Couch for Living Room | Luxury Wooden Frame Furniture | Modern Design | Comfortable, Durable Seating for Home and Lounge Without Centre Table</p>
+      <p class="text-gray-500 text-xs">FREE Delivery</p>
+      <p class="font-bold"> ₹37,524</p>
+    </a>
+  </div>
+</section>
+
+
+  <section class="max-w-7xl mx-auto px-4 py-10">
+  <h2 class="text-2xl font-semibold mb-6">Most Recommended Products For You!</h2>
+
+  <div class="flex overflow-x-auto space-x-6 pb-4">
+    <a href="#product-6" class="min-w-[220px] bg-white border rounded shadow-sm p-3 space-y-1">
+      <img src="./images/sofa10.png" alt="Grey Velvet Sofa" class="h-40 w-full object-cover rounded">
+      <p class="text-sm font-medium">duroflex Avalon Posture Pro Single Seater Premium Leatherette Motorized Rocking & Rotating Recliner | | Pocket Spring Support | 3 Zone Backrest | 270⁰ Rotation - Beige</p>
+      <p class="text-red-600 text-xs font-semibold">48% off • Limited deal</p>
+      <p class="font-bold">₹32,999</p>
+      <p class="text-xs line-through text-gray-500">₹59,999</p>
+    </a>
+
+    <a href="#product-7" class="min-w-[220px] bg-white border rounded shadow-sm p-3 space-y-1">
+      <img src="./images/sofa11.png" alt="Two‑Tone Sofa" class="h-40 w-full object-cover rounded">
+      <p class="text-sm font-medium">WOODEN WORLD Modern 3-Seater Curved Arm Sofa – Comfortable for Living Room, Guest Room Hotels Velvet (Orange)</p>
+      <p class="text-gray-500 text-xs">FREE Delivery</p>
+      <p class="font-bold">₹18,499</p>
+    </a>
+
+    <a href="#product-12" class="min-w-[220px] bg-white border rounded shadow-sm p-3 space-y-1">
+      <img src="./images/sofa12.png" alt="Blue L‑Shape Sectional" class="h-40 w-full object-cover rounded">
+      <p class="text-sm font-medium">LEGACY OF COMFORT Elma Curved 3 Seater Cloud Sofa Upholstered 3 Seater Sofa Three Seater Sofa for Living Room Hotels & Offices (Orange)</p>
+      <p class="text-red-600 text-xs font-semibold">44% off • Limited deal</p>
+      <p class="font-bold">₹31,999</p>
+      <p class="text-xs line-through text-gray-500">₹47,000</p>
+    </a>
+
+    <a href="#product-9" class="min-w-[220px] bg-white border rounded shadow-sm p-3 space-y-1">
+      <img src="./images/sofa14.png" alt="Beige Sectional" class="h-40 w-full object-cover rounded">
+      <p class="text-sm font-medium">Casacomfort Aleno Interchangeable U Shape 7 Seater Sectional L Shape Sofa Set with 4 Puffy for Living Room, Set of 10 (Light Grey-Dark Grey) - 7 Seater, Fabric
+</p>
+      <p class="text-gray-500 text-xs">FREE Delivery</p>
+      <p class="font-bold">₹54,480</p>
+    </a>
+
+    <a href="#product-10" class="min-w-[220px] bg-white border rounded shadow-sm p-3 space-y-1">
+      <img src="./images/sofa15.png" alt="Beige Sectional" class="h-40 w-full object-cover rounded">
+      <p class="text-sm font-medium">Choose It - Modern Classic 4 Seater Sofa Set, 3+1+Ottoman, Chesterfield Style Sofa Button Tufted Design Living Room, Bedroom, Hallways and Office, (Pillows Included) (Off White, Boucle Fabric)</p>
+      <p class="text-gray-500 text-xs">FREE Delivery</p>
+      <p class="font-bold"> ₹37,524</p>
+    </a>
+  </div>
+</section>
+
+  <section class="max-w-7xl mx-auto px-4 py-10">
+    <h2 class="text-2xl font-semibold mb-6">Product Information</h2>
+    <div class="grid md:grid-cols-2 gap-20 text-sm text-gray-800">
+
+        <div>
+        <h3 class="text-lg font-semibold mb-4">Technical Details</h3>
+        <dl class="space-y-2">
+            <div class="flex justify-between border-b pb-1">
+            <dt>Brand</dt><dd class="font-medium">Home Centre</dd>
+            </div>
+            <div class="flex justify-between border-b pb-1">
+            <dt>Assembly Required</dt><dd class="font-medium">Yes</dd>
+            </div>
+            <div class="flex justify-between border-b pb-1">
+            <dt>Product Dimensions</dt><dd class="font-medium">1.18D x 2.67W x 0.89H Meters</dd>
+            </div>
+            <div class="flex justify-between border-b pb-1">
+            <dt>Item Weight</dt><dd class="font-medium">48,000 Grams</dd>
+            </div>
+            <div class="flex justify-between border-b pb-1">
+            <dt>Type</dt><dd class="font-medium">Sectional</dd>
+            </div>
+            <div class="flex justify-between border-b pb-1">
+            <dt>Colour</dt><dd class="font-medium">Black</dd>
+            </div>
+            <div class="flex justify-between border-b pb-1">
+            <dt>Arm Style</dt><dd class="font-medium">Track</dd>
+            </div>
+            <div class="flex justify-between border-b pb-1">
+            <dt>Back Style</dt><dd class="font-medium">Cushion Back</dd>
+            </div>
+            <div class="flex justify-between border-b pb-1">
+            <dt>Frame Material</dt><dd class="font-medium">Wood</dd>
+            </div>
+            <div class="flex justify-between border-b pb-1">
+            <dt>Size</dt><dd class="font-medium">Standard</dd>
+            </div>
+            <div class="flex justify-between border-b pb-1">
+            <dt>Material</dt><dd class="font-medium">Half Leather</dd>
+            </div>
+            <div class="flex justify-between border-b pb-1">
+            <dt>Number of Pieces</dt><dd class="font-medium">1</dd>
+            </div>
+            <div class="flex justify-between border-b pb-1">
+            <dt>Cushion Removable Cover</dt><dd class="font-medium">Yes</dd>
+            </div>
+            <div class="flex justify-between border-b pb-1">
+            <dt>Usage</dt><dd class="font-medium">Indoor</dd>
+            </div>
+            <div class="flex justify-between border-b pb-1">
+            <dt>Leg Material</dt><dd class="font-medium">Wood</dd>
+            </div>
+            <div class="flex justify-between border-b pb-1">
+            <dt>Orientation</dt><dd class="font-medium">Right Hand Facing</dd>
+            </div>
+            <div class="flex justify-between border-b pb-1">
+            <dt>Included Components</dt><dd class="font-medium">Sofa Sets</dd>
+            </div>
+            <div class="flex justify-between border-b pb-1">
+            <dt>Fill Material</dt><dd class="font-medium">Polyurethane Foam, Feathers</dd>
+            </div>
+            <div class="flex justify-between border-b pb-1">
+            <dt>Warranty</dt><dd class="font-medium">Two Year Warranty</dd>
+            </div>
+            <div class="flex justify-between border-b pb-1">
+            <dt>Item Model Number</dt><dd class="font-medium">Mills</dd>
+            </div>
+            <div class="flex justify-between border-b pb-1">
+            <dt>Item Part Number</dt><dd class="font-medium">Mills</dd>
+            </div>
+            <div class="flex justify-between border-b pb-1">
+            <dt>Primary Material</dt><dd class="font-medium">Half Leather</dd>
+            </div>
+            <div class="flex justify-between border-b pb-1">
+            <dt>Capacity</dt><dd class="font-medium">Standard</dd>
+            </div>
+            <div class="flex justify-between border-b pb-1">
+            <dt>Assembly Type</dt><dd class="font-medium">Require Full Assembly</dd>
+            </div>
+        </dl>
+        </div>
+
+        <div>
+        <h2 class="text-2xl font-semibold mb-6">Additional Information</h2>
+    <div class="grid md:grid-rows-2 gap-8 text-sm text-gray-800">
+        <div>
+        <dl class="space-y-2">
+            <div class="flex justify-between border-b pb-1">
+            <dt>ASIN</dt>
+            <dd class="font-medium">B0D9QC6T1N</dd>
+            </div>
+            <div class="flex justify-between border-b pb-1">
+            <dt>Date First Available</dt>
+            <dd class="font-medium">19 July 2024</dd>
+            </div>
+            <div class="flex justify-between border-b pb-1">
+            <dt>Manufacturer</dt>
+            <dd class="font-medium">
+                Lifestyle Int Pvt Ltd, Lifestyle Int Pvt Ltd,<br />
+                77 Degree Town Centre, Building No.3, West Wing,<br />
+                Off-HAL Airport Road, Yamlur, Bangalore-560037
+            </dd>
+            </div>
+            <div class="flex justify-between border-b pb-1">
+            <dt>Packer</dt>
+            <dd class="font-medium">
+                Lifestyle Int Pvt Ltd,<br />
+                77 Degree Town Centre, Building No.3, West Wing,<br />
+                Off-HAL Airport Road, Yamlur, Bangalore-560037
+            </dd>
+            </div>
+            <div class="flex justify-between border-b pb-1">
+            <dt>Importer</dt>
+            <dd class="font-medium">
+                Lifestyle Int Pvt Ltd,<br />
+                77 Degree Town Centre, Building No.3, West Wing,<br />
+                Off-HAL Airport Road, Yamlur, Bangalore-560037
+            </dd>
+            </div>
+            <div class="flex justify-between border-b pb-1">
+            <dt>Item Weight</dt>
+            <dd class="font-medium">48 kg</dd>
+            </div>
+            <div class="flex justify-between border-b pb-1">
+            <dt>Generic Name</dt>
+            <dd class="font-medium">Sofas</dd>
+            </div>
+        </dl>
+        </div>
+
+        <div>
+        <h3 class="text-lg font-semibold mb-4">Feedback</h3>
+        <p>Would you like to <a href="#" class="text-blue-900 font-bold hover:underline">tell us about a lower price?</a></p>
+        </div>
+
+    </div>
+    </section>
+
+    <section class="max-w-7xl mx-auto px-4 py-10">
+    <h2 class="text-2xl font-semibold mb-4">Product Description</h2>
+    <p class="text-sm leading-relaxed text-gray-800 text-justify">
+        Elevate your living space with this exquisite 3-seater sofa that comes with two ottomans, meticulously crafted to blend luxury with functionality.
+        This stunning piece boasts a harmonious combination of half-leather upholstery, featuring sumptuous bovine leather on body-touching parts and
+        durable faux leather elsewhere. Experience the indulgent warmth and breathability of natural leather, coupled with the practicality of faux
+        leather for easy maintenance and longevity. Sink into unparalleled comfort with these thoughtfully designed seat cushions, featuring high-quality foam and wadding for optimal support.
+        Supported by a sturdy pinewood frame, pretreated against moisture and wood infestation, this sofa is as durable as it is elegant. The webbing and
+        zig-zag springs at the base ensure stability and resilience, providing a solid foundation for the seat cushions. Enjoy the extra seat depth and sink into the plush back cushions, filled with a luxurious blend of polyfill and feathers for an extra layer of
+        comfort.
+    </p>
+    </section>
+
+  <footer class="bg-black text-white">
+    <div class="max-w-7xl mx-auto px-4 py-16">
+      <h2 class="text-6xl md:text-7xl font-extrabold tracking-wide text-center mb-16">GET IN TOUCH</h2>
+
+      <div class="grid md:grid-cols-3 gap-8 border-t border-b border-stone-700 py-10 text-sm">
+        <div>
+          <h4 class="font-bold mb-1">Shipping</h4>
+          <p>In-stock items shipped via White Glove or oversize will typically ship within 2–3 weeks of purchase, unless otherwise noted. Transit can take up to 14 business days.</p>
+        </div>
+        <div>
+          <h4 class="font-bold mb-1">Delivery</h4>
+          <p>Delivery requires an appointment and signature. A two-person team will bring the item inside, place it in your chosen room, assemble it, and remove packaging debris.</p>
+        </div>
+        <div>
+          <h4 class="font-bold mb-1">Returns</h4>
+          <p>Please verify that this item aligns with your specific requirements before completing the purchase, as it does not qualify for free returns and incurs a 15% restocking fee.</p>
+        </div>
+      </div>
+
+      <div class="grid md:grid-cols-4 gap-8 py-12 text-sm">
+        <div>
+          <h5 class="font-semibold mb-2">Social Media</h5>
+          <ul class="space-y-1">
+            <li>Facebook</li>
+            <li>Pinterest</li>
+            <li>Instagram</li>
+            <li>Tiktok</li>
+          </ul>
+        </div>
+        <div>
+          <h5 class="font-semibold mb-2">Customer Support</h5>
+          <ul class="space-y-1">
+            <li>Top Questions</li>
+            <li>Start a Return</li>
+            <li>Rug Guide</li>
+            <li>Gift Card</li>
+          </ul>
+        </div>
+        <div>
+          <h5 class="font-semibold mb-2">The Company</h5>
+          <ul class="space-y-1">
+            <li>Careers</li>
+            <li>About Us</li>
+            <li>Customer Reviews</li>
+            <li>Accessibility</li>
+          </ul>
+        </div>
+        <div>
+          <h5 class="font-semibold mb-2">Subscribe To Us!</h5>
+          <p class="mb-3">Sign up for our email list and receive 10% off your first order.</p>
+          <form class="flex items-center border-b border-stone-600">
+            <input type="email" placeholder="Your Email Address" class="bg-transparent placeholder-stone-400 outline-none w-full py-1" />
+            <button type="submit" class="ml-2 text-xl">➔</button>
+          </form>
+        </div>
+      </div>
+
+      <p class="text-center text-sm text-stone-500 pt-6 border-t border-stone-700">© 2025, LivinStyles All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Messages Page</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body class="min-h-screen flex items-center justify-center bg-[#f5f8ff] font-[Poppins]">
+    <div class="relative">
+        <div class="absolute w-100 h-110 rounded-3xl bg-gradient-to-tr from-emerald-300 to-teal-400 -translate-x-1/6 -translate-y-2/3">
+        </div>
+        </div>
+      <div class="relative w-100 bg-white rounded-3xl shadow-xl overflow-hidden">
+        <div class="p-9">
+          <h2 class="text-xl text-indigo-950 font-bold">Your messages</h2>
+
+          <button class="bg-indigo-950 w-full flex py-4 my-4 text-white items-center justify-center rounded-xl hover:bg-blue-900">
+            <span class="text-sm">Compose</span>
+            <i class="fa-solid fa-pen text-white"></i>
+          </button>
+          <div mt-8 space-y-4>
+            <div class="flex items-start gap-4 mt-4 hover:bg-indigo-100 rounded-xl p-2">
+              <div class="relative">
+                <img src="https://cdn.pixabay.com/photo/2023/04/04/14/19/boy-7899447_1280.jpg" alt="Rafel Jay" class="rounded-full h-13 w-13 object-cover"/>
+                <span class="rounded-full bg-emerald-400 absolute top-0 right-0 block w-3 h-3 ring-2 ring-white"></span>
+              </div>
+              <div class="flex-1 item">
+                <div class="flex justify-between items-center">
+                  <p class="text-indigo-900 text-sm font-bold py-1">Rafel Jay</p>
+                  <span class="text-xs text-gray-500">4 days ago</span>
+                </div>
+                <p class="text-[13px] text-indigo-900">Hi there, how are you?</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-4 mt-1 hover:bg-indigo-100 rounded-xl p-2">
+              <div class="relative">
+                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Frank Johnson" class="rounded-full h-13 w-13 object-cover"/>
+                <span class="rounded-full bg-orange-400 absolute top-0 right-0 block w-3 h-3 ring-2 ring-white"></span>
+              </div>
+              <div class="flex-1">
+                <div class="flex justify-between items-center">
+                  <p class="text-indigo-900 text-sm font-bold py-1">Frank Johnson</p>
+                  <span class="text-xs text-gray-500">5 days ago</span>
+                </div>
+                <p class="text-[13px] text-indigo-900">How was the trip?</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-4 mt-1 hover:bg-indigo-100 rounded-xl p-2">
+              <div class="relative">
+                <img src="https://randomuser.me/api/portraits/women/43.jpg" alt="Ashley Pierce" class="rounded-full h-13 w-13 object-cover"/>
+                <span class="rounded-full bg-emerald-400 absolute top-0 right-0 block w-3 h-3 ring-2 ring-white"></span>
+              </div>
+              <div class="flex-1">
+                <div class="flex justify-between items-center">
+                  <p class="text-indigo-900 text-sm font-bold py-1">Ashley Pierce</p>
+                  <span class="text-xs text-gray-500">Mar 12, 2022</span>
+                </div>
+                <p class="text-[13px] text-indigo-900">I hope you are well.</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-4 mt-1 hover:bg-indigo-100 rounded-xl p-2">
+              <div class="relative">
+                <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Nancy Mayer" class="rounded-full h-13 w-13 object-cover"/>
+                <span class="rounded-full bg-gray-300 absolute top-0 right-0 block w-3 h-3 ring-2 ring-white"></span>
+              </div>
+              <div class="flex-1">
+                <div class="flex justify-between items-center">
+                  <p class="text-indigo-900 text-sm font-bold py-1">Nancy Mayer</p>
+                  <span class="text-xs text-gray-500">Feb 3, 2022</span>
+                </div>
+                <p class="text-[13px] text-indigo-900">Thank you for answering.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Using Tailwind</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="flex justify-center items-center h-screen bg-[url('https://wallpapers.com/images/high/sea-background-jdu3fpbgam2c3wdz.webp')] bg-no-repeat w-full">
+    <div class="w-1/4 p-10 rounded-xl shadow-lg backdrop-blur-xl">
+        <h2 class="text-3xl text-violet-600 font-bold text-center my-8">Login Page</h2>
+        <form action="">
+            <label for="email">Email Address:</label>
+            <input type="email" class="block border-2 w-full px-4 py-2 rounded mb-6 mt-1" required >
+
+            <label for="password">Password:</label>
+            <input type="password" class="block border-2 w-full px-4 py-2 rounded mb-6 mt-1" required>
+
+            <a href="#" class="block underline text-violet-500 font-bold text-right ">Forgot Password?</a>
+
+            <button type="submit" class="block w-full bg-violet-500 text-white p-2 rounded my-6 hover:bg-violet-700 duration-300 transition-transform">Login</button>
+            <a href="#" class="block text-center text-violet-500">Not Registered Yet? Sign Up Now</a>
+        </form>
+</body>
+</html>

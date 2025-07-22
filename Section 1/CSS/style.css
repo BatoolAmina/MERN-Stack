@@ -1,0 +1,19 @@
+.btn-primary {
+    color: yellow;
+    background-color: cornflowerblue;
+    padding: 20px;
+    border: 2px solid darkblue;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: lightblue;
+    color: darkblue;
+    transform: scale(1.05);
+    transition: 2s ease-in-out;
+}
+
+.btn-primary:active {
+    background-color: darkgreen;
+    transition: background-color 0.2s ease;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using CSS</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <style>
+        body {
+            background-color: rgb(194, 240, 255);
+        }
+        h1 {
+            color: red;
+            text-align: center;
+            text-decoration: double underline;
+        }
+        .class-selector {
+            color: Orange;
+            text-align: end;
+        }
+        #id-selector {
+            color: green;
+            text-decoration: none;
+            text-align: start;
+            box-sizing: border-box;
+            border: 2px solid green;
+        }
+        .btn {
+            color: white;
+            background-color: navy !important;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 10px;
+        }
+        button {
+            background-color: black;
+            color: yellow
+        }
+
+        #btn {
+            background-color: crimson;
+            color: rgb(162, 249, 202);
+        }
+    </style>
+</head>
+<body">
+    <p style="color: blue; font-size: 16px; font-family: cursive;">Inline CSS is used to style individual elements at once.</p>
+    <h1>Internal CSS is used to style entire page at once.</h1>
+    <h1>Name Selector is used to select elements by their name.</h1>
+    <h1 class="class-selector">Class Selector is used to select elements by their class.</h1>
+    <h1 id="id-selector">Id Selector is used to select elements by their id.</h1>
+    <button class="btn" id="btn">Button</button>
+    <button class="btn-primary">New Button</button>
+</body>
+</html>

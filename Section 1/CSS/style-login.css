@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+.card {
+    width: 20%;
+    border-radius: 10px;
+    padding: 30px;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 5px 0 rgb(160, 160, 160);
+    background-color: white;
+}
+
+.card .form-title {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.text-input {
+    display: block;
+    width: 100%;
+    padding: 10px 5px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://sb.kaleidousercontent.com/67418/1920x1100/2ed9107761/bg.png');
+}
+
+.btn-primary {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ff9100;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.link {
+    text-decoration: none;
+    color: #ff9100;
+    display: block;
+}
+
+.forgot-password {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.sign-up {
+    text-align: center;
+    margin-top: 30px;
+}

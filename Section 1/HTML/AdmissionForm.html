@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+</head>
+<body>
+    <h1>Student Admission Form</h1>
+    <form>
+        <label for="name">Student Name:</label>
+        <input type="text" id="name" name="name" required minlength="3" maxlength="50">
+        <br>
+        <br>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+        <br>
+        <br>
+
+        <label for="gender">Gender</label>
+        <input type="radio" id="male" name="gender" value="male">Male
+        <input type="radio" id="female" name="gender" value="female">Female
+        <br>
+        <br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br>
+        <br>
+
+        <label for="course">Course Applied For:</label>
+        <select>
+            <option>Data Science</option>
+            <option>Digital Marketing</option>
+            <option>MERN Stack</option>
+            <option>MEAN Stack</option>
+            <option>Cyber Security</option>
+        </select>
+        <br>
+        <br>
+
+        <label for="">College Name:</label>
+        <input type="text" list="colleges">
+        <datalist id="colleges">
+            <option value="Harvard University"></option>
+            <option value="Stanford University"></option>
+            <option value="MIT"></option>
+            <option value="California Institute of Technology"></option>
+            <option value="University of Oxford"></option>
+        </datalist>
+        <br>
+        <br>
+
+        <label for="address">Address:</label>
+        <textarea rows="4" cols="50" ></textarea>
+        <br>
+        <br>
+
+        <input type="checkbox">
+        <label for="">Accept Terms and Conditions</label>
+        <br>
+        <br>
+
+        <details>
+            <summary>View Terms and Conditions</summary>
+            <p>By submitting this form, you agree to the <mark>terms and conditions</mark> outlined by the institution.</p>
+        </details>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

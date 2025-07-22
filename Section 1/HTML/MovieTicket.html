@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Movie Ticket Booking</title>
+</head>
+<body>
+
+    <h1>Book Your Movie Ticket</h1>
+
+    <form>
+        <label for="movie">Movie:</label>
+        <select id="movie" name="movie" required>
+            <option disabled selected>Select a movie</option>
+            <option value="inception">Inception</option>
+            <option value="dune2">Dune: Part II</option>
+            <option value="insideout2">Inside Out 2</option>
+            <option value="spiderman">Spider-Man: Across the Spider-Verse</option>
+            <option value="barbie">Barbie</option>
+            <option value="oppenheimer">Oppenheimer</option>
+            <option value="missionimpossible">Mission: Impossible - Dead Reckoning Part One</option>
+            <option value="theflash">The Flash</option>
+        </select>
+        <br>
+        <br>
+
+        <label for="showDate">Date:</label>
+        <input type="date" id="showDate" name="date" required>
+        <br>
+        <br>
+
+        <label>Show Time:</label><br>
+        <input type="radio" name="time" required>
+        <label for="">12 PM</label>
+        <br>
+        
+        <input type="radio" name="time">
+        <label for="">3 PM</label>
+        <br>
+
+        <input type="radio" name="time">
+        <label>6 PM</label>
+        <br>
+
+        <input type="radio" name="time">
+        <label>9 PM</label>
+        <br>
+        <br>
+
+        <label for="tickets">Number of tickets:</label>
+        <input type="number" id="tickets" min="1" max="10" value="1" required>
+        <br>
+        <br>
+
+        <label for="seatType">Seat category:</label>
+        <select id="seatType" name="seat" required>
+            <option value="regular">Regular</option>
+            <option value="premium">Premium</option>
+            <option value="vip">VIP</option>
+        </select>
+        <br>
+        <br>
+
+        <details>
+            <summary>Snacks & Extras (optional)</summary>
+            <label><input type="checkbox" name="snacks"> Popcorn Combo</label><br>
+            <label><input type="checkbox" name="snacks"> Nachos & Dip</label><br>
+            <label><input type="checkbox" name="snacks"> Soft Drink</label>
+        </details>
+        <br>
+
+        <label for="fullName">Full name:</label>
+        <input type="text" id="fullName" required>
+        <br>
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="customer_email" required>
+        <br>
+        <br>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" b  required>
+        <br>
+        <br>
+
+        <label for="notes">Special requests:</label><br>
+        <textarea id="notes" name="notes" rows="4" cols="40" placeholder="Any additional information..."></textarea>
+        <br>
+        <br>
+
+        <button type="submit">Confirm & Pay</button>
+    </form>
+
+</body>
+</html>

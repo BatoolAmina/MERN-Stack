@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Poliform Style Website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      body {
+        font-family: 'Poppins', sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-stone-300 text-black scroll-smooth">
+    <header class="bg-black text-white shadow-md px-6 md:px-10 py-6 flex justify-between items-center relative z-50">
+      <div class="text-xl font-bold tracking-wide">Interior Designs.co</div>
+      <button id="menu-toggle" class="sm:hidden text-white text-2xl focus:outline-none">
+        <i class="fas fa-bars"></i>
+      </button>
+      <nav class="hidden sm:flex space-x-6 text-sm">
+        <a href="#" class="hover:text-stone-300 transition">Product</a>
+        <a href="#" class="hover:text-stone-300 transition">Lifestyle</a>
+        <a href="#" class="hover:text-stone-300 transition">News</a>
+        <a href="#" class="hover:text-stone-300 transition">Projects</a>
+      </nav>
+      <nav id="mobile-menu" class="absolute top-full left-0 w-full bg-black text-white flex-col space-y-4 px-6 py-4 text-sm sm:hidden hidden">
+        <a href="#" class="hover:text-stone-300 transition block">Product</a>
+        <a href="#" class="hover:text-stone-300 transition block">Lifestyle</a>
+        <a href="#" class="hover:text-stone-300 transition block">News</a>
+        <a href="#" class="hover:text-stone-300 transition block">Projects</a>
+      </nav>
+    </header>
+
+    <section class="relative w-full h-[70vh] sm:h-[80vh] overflow-hidden">
+      <img src="./images/hero.jpg" class="w-full h-full object-cover scale-105 hover:scale-110 transition-transform duration-700" alt="Hero" />
+      <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center px-4 sm:px-12 text-center">
+        <div>
+          <h1 class="text-white text-4xl sm:text-6xl md:text-7xl font-bold mb-4 sm:mb-6">Contemporary</h1>
+          <p class="text-white max-w-lg text-sm mb-4">Crafting spaces that harmonize modern aesthetics with timeless elegance...</p>
+          <button class="bg-white text-black px-6 py-2 text-sm font-semibold rounded hover:bg-gray-200 transition-all duration-300">View More</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid lg:grid-cols-2 px-4 sm:px-6 md:px-20 py-10 md:py-16 items-center gap-10">
+      <div class="flex justify-center">
+        <img src="./images/room.png" class="rounded-xl w-full sm:w-3/5 transition-transform duration-500 hover:scale-105 h-full object-cover shadow-lg" alt="Modern Minimalist" />
+      </div>
+      <div>
+        <h2 class="text-3xl sm:text-4xl font-semibold mb-4 text-center">Modern Minimalist</h2>
+        <p class="text-gray-600 mb-6 text-sm text-center">Aesthetic furniture where every piece tells a story of style and comfort.</p>
+        <div class="grid grid-cols-2 gap-6 text-center">
+          <div><span class="text-2xl font-bold">500+</span><br><span class="text-lg">Products</span></div>
+          <div><span class="text-2xl font-bold">20+</span><br><span class="text-lg">Projects</span></div>
+          <div><span class="text-2xl font-bold">50+</span><br><span class="text-lg">Satisfied Customers</span></div>
+          <div><span class="text-2xl font-bold">1st</span><br><span class="text-lg">Top In Paris</span></div>
+        </div>
+        <div class="text-center">
+          <p class="text-sm text-gray-700 mt-10 mb-6">Discover Poliform's 2024 preview featuring sofas, chairs, and armchairs with elegant lifestyle concepts.</p>
+          <button class="bg-black text-white px-6 py-2 text-sm font-semibold rounded hover:bg-stone-800 shadow-md transition-all duration-300">About Us</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-16 md:py-20 px-4 sm:px-6 md:px-10">
+      <h2 class="text-3xl sm:text-4xl font-semibold mb-10 text-center">Explore Our Proudly Collection</h2>
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-6 sm:gap-8">
+        <div class="bg-white rounded-xl shadow hover:shadow-2xl transition overflow-hidden group cursor-pointer">
+          <img src="./images/drawing room.png" alt="Mondrian" class="w-full h-60 object-cover group-hover:scale-105 transition-transform duration-500">
+          <div class="p-4 text-center font-semibold">Mondrian</div>
+        </div>
+        <div class="bg-white rounded-xl shadow hover:shadow-2xl transition overflow-hidden group cursor-pointer">
+          <img src="./images/kitchen.png" alt="Nirnia" class="w-full h-60 object-cover group-hover:scale-105 transition-transform duration-500">
+          <div class="p-4 text-center font-semibold">Nirnia</div>
+        </div>
+        <div class="bg-white rounded-xl shadow hover:shadow-2xl transition overflow-hidden group cursor-pointer">
+          <img src="./images/bedroom.png" alt="Artex" class="w-full h-60 object-cover group-hover:scale-105 transition-transform duration-500">
+          <div class="p-4 text-center font-semibold">Artex</div>
+        </div>
+        <div class="bg-white rounded-xl shadow hover:shadow-2xl transition overflow-hidden group cursor-pointer">
+          <img src="./images/drawingRoom.png" alt="Brera" class="w-full h-60 object-cover group-hover:scale-105 transition-transform duration-500">
+          <div class="p-4 text-center font-semibold">Brera</div>
+        </div>
+        <div class="bg-white rounded-xl shadow hover:shadow-2xl transition overflow-hidden group cursor-pointer">
+          <img src="./images/kitchen2.png" alt="Alea Pro" class="w-full h-60 object-cover group-hover:scale-105 transition-transform duration-500">
+          <div class="p-4 text-center font-semibold">Alea Pro</div>
+        </div>
+        <div class="bg-white rounded-xl shadow hover:shadow-2xl transition overflow-hidden group cursor-pointer">
+          <img src="./images/diningTable.png" alt="Nirnia" class="w-full h-60 object-cover group-hover:scale-105 transition-transform duration-500">
+          <div class="p-4 text-center font-semibold">Nirnia</div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-black text-white pt-20 pb-12 px-6 md:px-20">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center mb-16">
+        <div>
+          <h3 class="text-2xl sm:text-3xl font-semibold mb-4">Engage with Us in Conversation.</h3>
+          <p class="text-sm text-stone-400 max-w-xl leading-relaxed">In a global world based on communication, a brand must look beyond its borders, open up to new experiences, and dare to be different. Meeting the brightest minds of one’s time is the most effective way to nurture creativity.</p>
+        </div>
+        <div>
+          <img src="./images/image.png" alt="footer" class="rounded-xl shadow-xl w-full object-cover h-[250px]">
+        </div>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-10 border-t border-stone-700 pt-12">
+        <div>
+          <h4 class="font-semibold mb-4 text-lg">About</h4>
+          <ul class="space-y-2 text-sm text-stone-300">
+            <li class="hover:text-white cursor-pointer transition">Our Story</li>
+            <li class="hover:text-white cursor-pointer transition">Store Locator</li>
+            <li class="hover:text-white cursor-pointer transition">Sustainability</li>
+            <li class="hover:text-white cursor-pointer transition">Careers</li>
+            <li class="hover:text-white cursor-pointer transition">Contact</li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold mb-4 text-lg">Customer Service</h4>
+          <ul class="space-y-2 text-sm text-stone-300">
+            <li class="hover:text-white cursor-pointer transition">Prices and Payments</li>
+            <li class="hover:text-white cursor-pointer transition">Shipping</li>
+            <li class="hover:text-white cursor-pointer transition">Return Policy</li>
+            <li class="hover:text-white cursor-pointer transition">Terms of Service</li>
+            <li class="hover:text-white cursor-pointer transition">Privacy Policy</li>
+          </ul>
+        </div>
+        <div></div>
+        <div class="flex flex-col items-start space-y-4">
+          <div class="text-3xl font-bold tracking-wide">Interior Designs.co</div>
+          <div class="flex space-x-4">
+            <a href="#" class="text-white text-xl hover:text-gray-300"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="text-white text-xl hover:text-gray-300"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="text-white text-xl hover:text-gray-300"><i class="fab fa-linkedin"></i></a>
+          </div>
+          <p class="text-xs text-stone-400">© 2025 Interior Designs.co — All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const menuToggle = document.getElementById('menu-toggle');
+      const mobileMenu = document.getElementById('mobile-menu');
+      menuToggle.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+      });
+    </script>
+  </body>
+</html>
