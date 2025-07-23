@@ -1,14 +1,14 @@
 const user = {
-    name: 'Mansi',
-    email: 'mansi123@gmail.com',
-    password: 'mansi123',
+    name: 'Batool',
+    email: 'batool123@gmail.com',
+    password: 'batool123',
     age: 21
 };
 console.log(user.name);
 console.log(user['name']);
 // console.log(user['user name'])
 
-user.name = "Batool";
+user.name = "Amina";
 console.log(user);
 
 user.course = "MERN Stack";
@@ -25,8 +25,8 @@ console.log(Object.entries(user));
 let SmartPhone = {
     brand : 'Samsung',
     model : 'Galaxy M31',
-    price: 16000,
-    colors: ['Violet', 'Black', 'White',[1,2,3,4]]
+    price: 20000,
+    colors: ['Blue', 'Black', 'White',[1,2,3,4]]
 }
 
 console.log(SmartPhone);
